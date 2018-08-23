@@ -52,7 +52,7 @@ $ cat example/config.yml
     count: $.count # dynamic value
 
 
-$ ./json_exporter example/data.json example/config.yml
+$ ./json_exporter example/data.json example/config.yml &
 INFO[2018-08-22T22:52:42+01:00] metric registered;name:<example_global_value>
 INFO[2018-08-22T22:52:42+01:00] metric registered;name:<example_value_active>
 INFO[2018-08-22T22:52:42+01:00] metric registered;name:<example_value_count>
